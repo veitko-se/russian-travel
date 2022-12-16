@@ -1,0 +1,14 @@
+.header__lang-links {
+  display: flex;
+  align-items: flex-start;
+  column-gap: 18px;
+  padding-top: 18px;
+}
+
+/*МАКЕТ 4 СПРАВА НАЛЕВО*/
+/*до 424.98 пикселей — мобильные устройства*/
+@media screen and (max-width: 424.98px) {
+  .header_lang-links {
+    padding-top: 15px;
+  }
+}

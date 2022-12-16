@@ -1,0 +1,40 @@
+.places {
+  margin: 0 auto 92px;
+  width: calc(100% - 100px*2);
+  box-sizing: border-box;
+}
+
+/*МАКЕТ 2 СПРАВА НАЛЕВО*/
+/*от 1024 и до 1279.98 — для небольших ноутбуков,*/
+@media screen and (max-width: 1279.98px) {
+  .places {
+    width: calc(100% - 48px*2);
+  }
+}
+
+/*МАКЕТ 3 СПРАВА НАЛЕВО*/
+/*от 768 и до 1023.98 пикселей —
+от вертикального до горизонтального положения планшета,*/
+@media screen and (max-width: 1023.98px) {
+  .places {
+    width: 100%;
+    padding: 0 24px;
+    margin: 0 auto 90px;
+  }
+}
+
+/*от 425 и до 767.98 пикселей —
+от большого смартфона до вертикального положения планшета*/
+@media screen and (max-width: 767.98px) {
+  .places {
+    margin: 0 auto 66px;
+  }
+}
+
+/*МАКЕТ 4 СПРАВА НАЛЕВО*/
+/*до 424.98 пикселей — мобильные устройства*/
+@media screen and (max-width: 424.98px) {
+  .places {
+    padding: 0;
+  }
+}

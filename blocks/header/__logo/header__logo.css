@@ -1,0 +1,14 @@
+.header__logo {
+  max-width: 176px;
+  max-height: 52px;
+}
+
+
+/*МАКЕТ 4 СПРАВА НАЛЕВО*/
+/*до 424.98 пикселей — мобильные устройства*/
+@media screen and (max-width: 424.98px) {
+  .header__logo {
+    width: 142px;
+    height: 42px;
+  }
+}

@@ -1,0 +1,40 @@
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  grid-template-rows: repeat(2, minmax(min-content, max-content));
+  gap: 48px 40px;
+  margin: 0 0 80px;
+}
+
+.place:last-child {
+  margin-bottom: 0;
+}
+
+/*МАКЕТ 2 СПРАВА НАЛЕВО*/
+/*от 1024 и до 1279.98 — для небольших ноутбуков,*/
+@media screen and (max-width: 1279.98px) {
+  .place {
+    gap: 48px 32px;
+  }
+}
+
+/*МАКЕТ 3 СПРАВА НАЛЕВО*/
+/*от 768 и до 1023.98 пикселей —
+от вертикального до горизонтального положения планшета,*/
+@media screen and (max-width: 1023.98px) {
+  .place {
+    gap: 48px 28px;
+    margin: 0 0 72.5px;
+  }
+}
+
+/*от 425 и до 767.98 пикселей —
+от большого смартфона до вертикального положения планшета*/
+@media screen and (max-width: 767.98px) {
+  .place {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, minmax(min-content, max-content));
+    gap: 32px;
+    margin: 0 0 50px;
+  }
+}

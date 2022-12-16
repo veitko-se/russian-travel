@@ -1,0 +1,20 @@
+.footer__copyright {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  align-self: flex-end;
+}
+
+/*от 425 и до 767.98 пикселей —
+от большого смартфона до вертикального положения планшета*/
+@media screen and (max-width: 767.98px) {
+  .footer__copyright {
+    text-align: left;
+    align-self: flex-start;
+    font-size: 14px;
+    line-height: 1;
+  }
+}

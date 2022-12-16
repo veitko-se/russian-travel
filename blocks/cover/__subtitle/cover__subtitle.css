@@ -1,0 +1,26 @@
+.cover__subtitle {
+  font-size: 18px;
+  line-height: 22px;
+  max-width: 360px;
+  margin: auto;
+}
+
+/*от 425 и до 767.98 пикселей —
+от большого смартфона до вертикального положения планшета*/
+@media screen and (max-width: 767.98px) {
+  .cover__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 320px;
+  }
+}
+
+/*МАКЕТ 4 СПРАВА НАЛЕВО*/
+/*до 424.98 пикселей — мобильные устройства*/
+@media screen and (max-width: 424.98px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    max-width: 288px;
+  }
+}

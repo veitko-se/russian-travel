@@ -1,0 +1,29 @@
+.lead__title {
+  margin: 0 0 32px;
+  padding: 0;
+  max-width: 720px;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+}
+
+/*от 425 и до 767.98 пикселей —
+от большого смартфона до вертикального положения планшета*/
+@media screen and (max-width: 767.98px) {
+  .lead__title {
+    font-size: 54px;
+    line-height: 1.1;
+    max-width: 425px;
+  }
+}
+
+/*МАКЕТ 4 СПРАВА НАЛЕВО*/
+/*до 424.98 пикселей — мобильные устройства*/
+@media screen and (max-width: 424.98px) {
+  .lead__title {
+    font-size: 40px;
+    line-height: 1.1;
+    margin: 0 0 16px;
+    max-width: 288px;
+  }
+}

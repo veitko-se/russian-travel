@@ -1,0 +1,27 @@
+.lead__caption {
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  align-self: flex-start;
+  margin: 8px 0 0;
+  padding: 0;
+  text-align: left;
+}
+
+/*МАКЕТ 3 СПРАВА НАЛЕВО*/
+/*от 768 и до 1023.98 пикселей —
+от вертикального до горизонтального положения планшета,*/
+@media screen and (max-width: 1023.98px) {
+  .lead__caption {
+    margin: 8px 24px 0 24px;
+  }
+}
+
+/*МАКЕТ 4 СПРАВА НАЛЕВО*/
+/*до 424.98 пикселей — мобильные устройства*/
+@media screen and (max-width: 424.98px) {
+  .lead__caption {
+    margin: 8px 0 0 16px;
+  }
+}

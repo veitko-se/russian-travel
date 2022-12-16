@@ -1,0 +1,28 @@
+.cover {
+  background-image: url('../../images/cover-trains.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  padding-bottom: 62.5%;
+  box-sizing: border-box;
+  position: relative;
+  margin-bottom: 92px;
+}
+
+/*МАКЕТ 3 СПРАВА НАЛЕВО*/
+/*от 768 и до 1023.98 пикселей —
+от вертикального до горизонтального положения планшета,*/
+@media screen and (max-width: 1023.98px) {
+  .cover {
+    margin-bottom: 88px;
+  }
+}
+
+/*от 425 и до 767.98 пикселей —
+от большого смартфона до вертикального положения планшета*/
+@media screen and (max-width: 767.98px) {
+  .cover {
+    margin-bottom: 65px;
+  }
+}

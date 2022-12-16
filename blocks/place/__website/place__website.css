@@ -1,0 +1,11 @@
+.place__website {
+  align-self: end;
+}
+
+/*МАКЕТ 4 СПРАВА НАЛЕВО*/
+/*до 424.98 пикселей — мобильные устройства*/
+@media screen and (max-width: 424.98px) {
+  .place__website {
+    margin: 0 16px;
+  }
+}

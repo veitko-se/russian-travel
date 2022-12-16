@@ -1,0 +1,42 @@
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 16px;
+  margin: 0 0 92px;
+  grid-auto-rows: 1fr;
+}
+
+/*МАКЕТ 2 СПРАВА НАЛЕВО*/
+/*от 1024 и до 1279.98 — для небольших ноутбуков,*/
+@media screen and (max-width: 1279.98px) {
+  .photo-grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 14px;
+    margin: 0 48px 92px;
+  }
+}
+
+/*МАКЕТ 3 СПРАВА НАЛЕВО*/
+/*от 768 и до 1023.98 пикселей —
+от вертикального до горизонтального положения планшета,*/
+@media screen and (max-width: 1023.98px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 16px;
+    margin: 0 24px 88px;
+  }
+}
+
+/*МАКЕТ 4 СПРАВА НАЛЕВО*/
+/*до 424.98 пикселей — мобильные устройства*/
+@media screen and (max-width: 424.98px) {
+  .photo-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(12, 1fr);
+    gap: 12px;
+    margin: 0 16px 64px;
+  }
+}

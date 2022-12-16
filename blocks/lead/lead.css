@@ -1,0 +1,35 @@
+.lead {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto 92px;
+  width: calc(100% - 100px*2);
+  max-width: 984px;
+}
+
+/*МАКЕТ 2 СПРАВА НАЛЕВО*/
+/*от 1024 и до 1279.98 — для небольших ноутбуков,*/
+@media screen and (max-width: 1279.98px) {
+   .lead {
+    width: calc(100% - 48px*2);
+  }
+}
+
+/*МАКЕТ 3 СПРАВА НАЛЕВО*/
+/*от 768 и до 1023.98 пикселей —
+от вертикального до горизонтального положения планшета,*/
+@media screen and (max-width: 1023.98px) {
+  .lead {
+    width: 100%;
+    margin: 0 auto 88px;
+  }
+}
+
+/*МАКЕТ 4 СПРАВА НАЛЕВО*/
+/*до 424.98 пикселей — мобильные устройства*/
+@media screen and (max-width: 424.98px) {
+  .lead {
+    margin: 0 auto 64px;
+  }
+}

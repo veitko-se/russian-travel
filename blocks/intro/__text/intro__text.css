@@ -1,0 +1,17 @@
+.intro__text {
+  margin: 0 0 33px;
+  padding: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 690px;
+}
+
+/*МАКЕТ 3 СПРАВА НАЛЕВО*/
+/*от 768 и до 1023.98 пикселей —
+от вертикального до горизонтального положения планшета,*/
+@media screen and (max-width: 1023.98px) {
+  .intro__text {
+    max-width: 100%;
+  }
+}

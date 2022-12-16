@@ -1,0 +1,14 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 48px*2);
+  margin: 0 auto;
+}
+
+/*МАКЕТ 2 СПРАВА НАЛЕВО*/
+/*от 1024 и до 1279.98 — для небольших ноутбуков,*/
+@media screen and (max-width: 1279.98px) {
+  .content {
+    width: 100%;
+  }
+}
