@@ -35,11 +35,6 @@
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__image/place__image.css);
-@import url(../blocks/place/__image/_location/place__image_location_altai.css);
-@import url(../blocks/place/__image/_location/place__image_location_karelia.css);
-@import url(../blocks/place/__image/_location/place__image_location_kolsky.css);
-@import url(../blocks/place/__image/_location/place__image_location_kosa.css);
-@import url(../blocks/place/__image/_location/place__image_location_winter-baikal.css);
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__link/place__link.css);
