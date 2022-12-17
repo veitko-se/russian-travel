@@ -4,7 +4,7 @@
   background-size: cover;
   background-position: center center;
   width: 100%;
-  padding-bottom: 62.5%;
+  aspect-ratio: 320/200; /*или padding-bottom: 62.5%;*/
   box-sizing: border-box;
   position: relative;
   margin-bottom: 92px;
